@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html element</title>
+</head>
+<body>
+    <h1>Form-Elementes in Html</h1>
+    <!--Fliedset devidede your form-->
+    <fieldset>
+        <!-- legend suject the name of deviding part-->
+        <legend>My Info</legend>
+    <label for="name">First Name</label>
+    <input type="text"  id="name" name="first-name" placeholder="Write a First Name"><br>
+    <label for="na">Last Name</label>
+    <input type="text" id="na" name="last-name" placeholder="Write a Last Name">
+    <br>
+    <label for="password"> Password</label>
+    <input type="password" id="password"  name="password">
+    <br>
+
+
+    <!-- this define as dropdwon list using select-->
+    <label for="Subjects">Subjects</label>
+    <select name="Subjects" id="Subjects" size="2" multiple>
+        <option value="Maths">Maths</option>
+        <option value="mciense">Sicense</option>
+        <option selected="History">History</option>
+        <option value="Geography">Geography</option>
+    </select>
+    <br>
+
+ <!--textarea provides multilple liens-->
+    <label for="message" > Message</label>
+    <textarea name="message" id="message" cols="30" rows="2"></textarea>
+    <br>
+
+    <!--datalist provide list -->
+    <label for="browsers">Browsers</label>
+<input list="browsers">
+<datalist id="browsers">
+<option value="Chrome"></option>
+<option value="Yaho"> </option>
+<option value="Firefox"></option>
+
+</datalist>
+
+</fieldset>
+
+<!--buttone tag-->
+    <button type="" >Click Me</button>
+</body>
+</html>
